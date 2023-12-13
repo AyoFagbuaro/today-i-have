@@ -6,11 +6,15 @@
   border-bottom: 0.1px solid lightgray;
   padding-left: 10px;
   padding-bottom: 10px;
+  padding-top: 15px;
   width: 100%;
   background-color: white;
 }
 .header__left {
   margin-right: 10px;
+}
+.header__left > img {
+  height: 50px;
 }
 
 .header__search {

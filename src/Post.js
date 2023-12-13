@@ -5,14 +5,13 @@ import InputOption from "./InputOption"; // Import the InputOption component
 import ThumbUpOffAltIcon from "@mui/icons-material/ThumbUpOffAlt";
 import CommentIcon from "@mui/icons-material/Comment";
 import ShareIcon from "@mui/icons-material/Share";
-import SendIcon from "@mui/icons-material/Send";
 import { Send } from "@mui/icons-material";
 
 function Post({ name, description, message, photoUrl }) {
   return (
     <div className="post">
       <div className="post__header">
-        <Avatar />
+        <Avatar src={photoUrl} />
         <div className="post__info">
           <h2>{name}</h2>
           <p>{description}</p>
